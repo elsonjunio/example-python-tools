@@ -96,7 +96,7 @@ Using on VSCode: .vscode/settings.json
     "python.formatting.blackPath": "blue",
     "python.testing.unittestEnabled": true,
     "code-runner.executorMap": {
-        "python": "/Users/elsonsilva/Library/Caches/pypoetry/virtualenvs/example-python-tools-fuXY9vTO-py3.9/bin/python",
+        "python": "/Users/username/Library/Caches/pypoetry/virtualenvs/example-python-tools-fuXY9vTO-py3.9/bin/python",
     },
     "editor.formatOnSave": true,
     "python.linting.flake8Args": [
@@ -135,7 +135,7 @@ $ poetry add --dev isort
 
 # Usage
 $ isort .
-Fixing /Users/elsonsilva/Workspace/Python/example-python-tools/code/main.py
+Fixing /Users/username/Workspace/Python/example-python-tools/code/main.py
 Skipped 1 files
 ```
 
@@ -174,7 +174,7 @@ Check Information
   Libraries Used: 
        Tools Run: dodgy, mccabe, profile-validator, pycodestyle, pyflakes, pylint
   Messages Found: 2
- External Config: pylint: /Users/elsonsilva/Workspace/Python/example-python-tools/pyproject.toml
+ External Config: pylint: /Users/username/Workspace/Python/example-python-tools/pyproject.toml
 
 # Specific tool
 $ prospector --with-tool pep257
@@ -203,7 +203,7 @@ Check Information
   Libraries Used: 
        Tools Run: dodgy, mccabe, pydocstyle, profile-validator, pycodestyle, pyflakes, pylint
   Messages Found: 3
- External Config: pylint: /Users/elsonsilva/Workspace/Python/example-python-tools/pyproject.toml
+ External Config: pylint: /Users/username/Workspace/Python/example-python-tools/pyproject.toml
 ```
 
 - ### pip-audit
