@@ -1,2 +1,3 @@
-# example-python-tools
-Helper tools for python development
+
+example-python-tools
+Read the [docs](docs/index.md)

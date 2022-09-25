@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "example-python-tools"
+version = "0.1.0"
+description = ""
+authors = ["elsonjunio <elsonjuniog@gmail.com>"]
+license = "GPL3"
+readme = "README.md"
+packages = [{include = "example_python_tools"}]
+
+[tool.poetry.dependencies]
+python = "^3.9.13"
+
+
+[tool.poetry.group.dev.dependencies]
+blue = "0.9.1"
+isort = "^5.10.1"
+mkdocs = "^1.3.1"
+prospector = "^1.7.7"
+pip-audit = "^2.4.4"
+coverage = "^6.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
