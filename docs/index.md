@@ -24,7 +24,8 @@ To install and use the Python 3.10.2 in the current project
 
 ```bash
 $ pyenv install 3.10.2
-$ pyenv local 3.10.2
+$ pyenv local 3.10.2 # set python version in current directory
+$ pyenv global 3.10.2 # set python version in global environment
 $ python --version
 Python 3.10.2
 ```
